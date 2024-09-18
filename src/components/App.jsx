@@ -17,6 +17,7 @@ export default function App() {
     <div>
 		  <h1 className={'alert'}>Products</h1>
 		  <BookList books={favouriteBooks} />
+		
 		  
      <Product
         name="Tacos With Lime"
@@ -52,3 +53,4 @@ Product.propTypes = {
   imgUrl: PropTypes.string,
   price: PropTypes.number.isRequired,
 };
+console.log(<BookList books={favouriteBooks} />);
